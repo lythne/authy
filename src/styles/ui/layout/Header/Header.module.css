@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: flex-start;
     gap: 32px;
+    border-bottom: 1px solid var(--black-5);
 }
 
 @media (min-width: 0px) and (max-width: 384px) {
