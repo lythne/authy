@@ -1,4 +1,4 @@
-import Logo from '../Logo/Logo';
+import { Logo } from 'sharedUI';
 
 export default function Brand() {
     return (
