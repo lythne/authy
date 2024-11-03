@@ -1,4 +1,4 @@
-import { BrandStyles } from 'sharedStyles';
+import { BrandStyles } from 'fragmentsStyles';
 import { Logo } from 'sharedUI';
 
 export default function Brand() {

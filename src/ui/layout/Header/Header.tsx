@@ -1,5 +1,5 @@
+import { Brand } from 'fragmentsUI';
 import { HeaderStyles } from 'layoutStyles';
-import { Brand } from 'sharedUI';
 
 export default function Header() {
     return (

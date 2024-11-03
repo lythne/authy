@@ -27,6 +27,8 @@
             "viewsStyles": ["./src/exports/styles/views.ts"],
             "variableFonts": ["./src/exports/fonts/variable.ts"],
             "staticFonts": ["./src/exports/fonts/static.ts"],
+            "fragmentsStyles": ["./src/exports/styles/fragments.ts"],
+            "fragmentsUI": ["./src/exports/ui/fragments.ts"],
             "@/*": ["./src/*"]
         }
     },
