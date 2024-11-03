@@ -1,3 +1,9 @@
+import { FooterStyles } from '@/exports/styles/layout';
+
 export default function Footer() {
-    return <footer></footer>;
+    return (
+        <footer className={FooterStyles.Footer}>
+            <p>© {new Date().getFullYear()} Verfy. All rights reserved.</p>
+        </footer>
+    );
 }
