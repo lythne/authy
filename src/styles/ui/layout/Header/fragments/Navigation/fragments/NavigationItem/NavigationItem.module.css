@@ -1,0 +1,26 @@
+.NavigationItem,
+.NavigationItemActive {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+.NavigationItemActive {
+    font-weight: 600;
+}
+
+.NavigationItem:hover,
+.NavigationItemActive:hover {
+    background-color: var(--black-5);
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .NavigationItem,
+    .NavigationItemActive {
+        width: calc(100% - 32px);
+        padding: 16px;
+        border-radius: 20px;
+    }
+}
