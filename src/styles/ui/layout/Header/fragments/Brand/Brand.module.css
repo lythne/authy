@@ -9,4 +9,5 @@
 .Brand p {
     font-size: 24px;
     font-weight: 700;
+    word-break: normal;
 }

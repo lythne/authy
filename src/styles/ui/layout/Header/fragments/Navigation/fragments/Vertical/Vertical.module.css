@@ -24,6 +24,7 @@
         top: 81px;
         height: calc(100vh - 81px - 32px);
         width: clamp(225px, 50vw, 335px);
+        margin-right: -1px;
         background-color: white;
         border-left: 1px solid var(--black-5);
         display: flex;
@@ -32,5 +33,6 @@
         justify-content: flex-start;
         padding: 16px 0px 16px 16px;
         gap: 32px;
+        overflow-y: auto;
     }
 }

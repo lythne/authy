@@ -1,6 +1,7 @@
 import { NavigationItem } from 'fragmentsUI';
 import { Container, Footer, Header, Main } from 'layoutUI';
 import { Button } from 'sharedUI';
+import { Hero } from 'viewsUI';
 
 export default function Landing() {
     return (
@@ -21,7 +22,9 @@ export default function Landing() {
                 />
             </Header>
             <Container>
-                <Main />
+                <Main>
+                    <Hero />
+                </Main>
                 <Footer />
             </Container>
         </>
