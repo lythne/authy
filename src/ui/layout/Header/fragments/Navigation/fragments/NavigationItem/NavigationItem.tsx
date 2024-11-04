@@ -9,7 +9,8 @@ export default function NavigationItem({ url, name, active }: UrlNameActive) {
                     ? NavigationItemStyles.NavigationItemActive
                     : NavigationItemStyles.NavigationItem
             }
-            href={url}>
+            href={url}
+        >
             {name}
         </Link>
     );

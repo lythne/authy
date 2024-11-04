@@ -1,5 +1,6 @@
 import { NavigationItem } from 'fragmentsUI';
 import { Container, Footer, Header, Main } from 'layoutUI';
+import { Button } from 'sharedUI';
 
 export default function Landing() {
     return (
@@ -13,6 +14,10 @@ export default function Landing() {
                 <NavigationItem
                     url="/"
                     name="Repository"
+                />
+                <Button
+                    url="/login"
+                    name="Sign In"
                 />
             </Header>
             <Container>

@@ -22,7 +22,7 @@
     .VerticalNavigation {
         position: absolute;
         top: 81px;
-        height: calc(100vh - 81px);
+        height: calc(100vh - 81px - 32px);
         width: clamp(225px, 50vw, 335px);
         background-color: white;
         border-left: 1px solid var(--black-5);
